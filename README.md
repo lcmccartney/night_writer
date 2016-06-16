@@ -1,5 +1,6 @@
 
 ## Night Writer
+[Original Project](https://github.com/turingschool/curriculum/blob/67df787e17e66bb446af2e10c4c6e72b3d41579b/source/projects/night_writer.markdown)
 
 The idea of [Night Writing](https://en.wikipedia.org/wiki/Night_writing) was first developed for Napoleon's army so soldiers could communicate silently at night without light. The concept of night writing led to Louis Braille's development of his [Braille tactile writing system](https://en.wikipedia.org/wiki/Braille).
 
@@ -69,8 +70,7 @@ Created 'original_message.txt' containing 256 characters.
 
 ## Examples
 
-Below are a few examples to help you develop your implementation. You're encouraged
-to submit additional examples, especially for the extensions, as pull requests.
+Below are a few examples to help in understanding the Braille-like text:
 
 ### lowercase character
 
