@@ -63,6 +63,7 @@ gem install ruby
 
 ### Usage
 
+A plaintext file `message.txt` is used to create a Braille simulation file `braille.txt`.
 The program is used from the command line like so:
 
 ```
@@ -70,15 +71,12 @@ $ ruby ./lib/night_write.rb message.txt braille.txt
 Created 'braille.txt' containing 256 characters
 ```
 
-A plaintext file `message.txt` is used to create a Braille simulation file `braille.txt`.
-
 Then that Braille simulation can be converted back to normal text:
 
 ```
 $ ruby ./lib/night_read.rb braille.txt original_message.txt
 Created 'original_message.txt' containing 256 characters.
 ```
-
 
 ### all characters
 
