@@ -18,7 +18,18 @@ Braille uses a 2x3 grid of dots to represent characters. This concept is simulat
 
 The `0` represents a raised dot. The period is an unraised space. The above code reads "hello world" in normal text.
 
-The Braille-like text is constrained in the files to 80 braille characters (or 160 dots) wide.
+The Braille-like text is constrained in the files to 80 braille characters (or 160 dots) wide, the wraps to the next three lines.
+
+```
+"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+
+0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.
+................................................................................
+................................................................................
+0.
+..
+..
+```
 
 #### Character Support
 
