@@ -79,60 +79,6 @@ $ ruby ./lib/night_read.rb braille.txt original_message.txt
 Created 'original_message.txt' containing 256 characters.
 ```
 
-## Examples
-
-Below are a few examples to help in understanding the Braille-like text:
-
-### lowercase character
-
-    "a"
-
-    0.
-    ..
-    ..
-
-### two lowercase characters
-
-    "ab"
-
-    0.0.
-    ..0.
-    ....
-
-### uppercase character
-
-    "A"
-
-    ..0.
-    ....
-    .0..
-
-### two uppercase characters
-
-    "AB"
-
-    ..0...0.
-    ......0.
-    .0...0..
-
-### 80 characters wide
-
-    "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
-
-    0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.
-    ................................................................................
-    ................................................................................
-
-### 82 characters wide (41 English letters)
-
-    "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
-
-    0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.
-    ................................................................................
-    ................................................................................
-    0.
-    ..
-    ..
 
 ### all characters
 
